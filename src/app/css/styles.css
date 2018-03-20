@@ -1,0 +1,38 @@
+header, footer{
+    display: flex;
+    justify-content: center;    
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+body{
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 20% 1fr 10%;
+    grid-template-areas: 
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
+    min-height: 100vh;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: main;
+}
