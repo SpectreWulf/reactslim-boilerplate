@@ -1,7 +1,7 @@
 {
   "name": "reactslim-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple non-opinionated ReactJS ONLY boilerplate",
   "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
